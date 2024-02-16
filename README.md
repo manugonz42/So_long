@@ -33,7 +33,7 @@ The goal of So Long is to navigate the player character through the game map, co
 ## Usage
 1. Clone this repository: 
 ```bash
-git clone git@github.com:manugonz42/So_long.git so_long
+git clone https://github.com/manugonz42/So_long.git so_long
 ```
 2. Navigate to the project directory:
 ```bash
