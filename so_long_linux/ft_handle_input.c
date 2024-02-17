@@ -22,7 +22,6 @@ void	ft_moves_count(t_game *game)
 
 int	ft_handle_input(int keysym, t_game *game)
 {
-	printf("k:%d\n", keysym);
 	if (keysym == W_KEY)
 		ft_move(game, game->map.player.x - 1, game->map.player.y, 3);
 	if (keysym == A_KEY)

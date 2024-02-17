@@ -33,7 +33,7 @@ $(LIBFT):
 $(LIBMLX): 
 	make -C mlx
 
-$(TARGET): $(OBJECTS) $(LIBFT)
+$(TARGET): $(OBJECTS) $(LIBFT) $(LIBMLX)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OBJECTS) $(LIBFT) $(LIBMLX) $(LIBS)
 
 # Limpieza de archivos generados
