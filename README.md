@@ -31,19 +31,23 @@ The goal of So Long is to navigate the player character through the game map, co
 - Player (P): The player's starting position is marked by the character P. The player can move in different directions to navigate the map.
 
 ## Usage
-# Libraries needed in linux system: xext, x11, lbsd.
+
+*Libraries needed in linux system: xext, x11, lbsd.
+
+
 1. Clone this repository: 
 ```bash
-git clone https://github.com/manugonz42/So_long.git so_long
+  git clone https://github.com/manugonz42/So_long.git so_long
 ```
 2. Navigate to the project directory:
-Mac:
+
+  ##### Mac:
 ```bash
-cd so_long
+    cd so_long
 ```
-Linux:
+  ##### Linux:
 ```bash
-cd so_long/so_long_linux
+    cd so_long/so_long_linux
 ```
 3. Compile the project:
 ```bash
