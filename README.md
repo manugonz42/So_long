@@ -41,17 +41,14 @@ The goal of So Long is to navigate the player character through the game map, co
 ```
 2. Navigate to the project directory:
 
-  ##### Mac:
+   chose Mac or linux version:
 ```bash
     cd so_long
-```
-  ##### Linux:
-```bash
     cd so_long/so_long_linux
 ```
 3. Compile the project:
 ```bash
-make
+    make
 ```
 4. Run the game with the provided map or customize as needed.
 
